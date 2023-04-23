@@ -243,7 +243,7 @@ if __name__ == "__main__":
     printc("Xtream UI 22F - Script Original", col.OKGREEN, 2)
     print "%s A RTMT-IP Recuperou os arquivos Originais    %s" % (col.OKGREEN, col.ENDC)
     print "%s Fontes de Canais+Filmes+Series @rtmtip       %s" % (col.OKGREEN, col.ENDC)
-    print "%s Deus é Fiel Até aqui nos ajudou Jesus Cristo %s" % (col.OKGREEN, col.ENDC)
+    print "%s Deus é Fiel %s" % (col.OKGREEN, col.ENDC)
     print " "
     rType = raw_input("  Installation Type [MAIN, LB]: ")
     print " "
@@ -282,7 +282,7 @@ if __name__ == "__main__":
                     printc("Please store your MySQL password!")
                     printc(rPassword)
                     printc("Admin UI Login URL is:")
-                    printc("http://%s:8080/%s" % (getIP(), rAccesscode))
+                    printc("http://%s:2095/%s" % (getIP(), rAccesscode))
                     printc("Admin UI default login is admin/admin")
             else: printc("Installation cancelled", col.FAIL)
         else: printc("Invalid entries", col.FAIL)
