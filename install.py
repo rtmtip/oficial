@@ -240,10 +240,10 @@ if __name__ == "__main__":
         printc("Unsupported Operating System, Works only on Ubuntu Server 16 and 18")
         sys.exit(1)
 
-    printc("Xtream UI 22F - Script Original", col.OKGREEN, 2)
-    print "%s A RTMT-IP Recuperou os arquivos Originais    %s" % (col.OKGREEN, col.ENDC)
-    print "%s Fontes de Canais+Filmes+Series @rtmtip       %s" % (col.OKGREEN, col.ENDC)
-    print "%s Deus é Fiel %s" % (col.OKGREEN, col.ENDC)
+    printc("Xtream UI 22F - Script Oficial", col.OKGREEN, 2)
+    print "%s A RTMT-IP Recuperou os arquivos Oficiais %s" % (col.OKGREEN, col.ENDC)
+    print "%s Xtream UI 22F Oficial %s" % (col.OKGREEN, col.ENDC)
+    print "%s Serviços Telegran @rtmtip %s" % (col.OKGREEN, col.ENDC)
     print " "
     rType = raw_input("  Installation Type [MAIN, LB]: ")
     print " "
