@@ -243,7 +243,7 @@ if __name__ == "__main__":
     printc("Xtream UI 22F - Script Oficial", col.OKGREEN, 2)
     print "%s A RTMT-IP Recuperou os arquivos Oficiais %s" % (col.OKGREEN, col.ENDC)
     print "%s Xtream UI 22F Oficial %s" % (col.OKGREEN, col.ENDC)
-    print "%s Serviços Telegran @rtmtip %s" % (col.OKGREEN, col.ENDC)
+    print "%s Serviços Telegram @rtmtip %s" % (col.OKGREEN, col.ENDC)
     print " "
     rType = raw_input("  Installation Type [MAIN, LB]: ")
     print " "
