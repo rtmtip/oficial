@@ -235,7 +235,7 @@ def modifyNginx():
         rFile.close()
 
 if __name__ == "__main__":
-    printc("Xtream UI 22F - Instalação Oficial", col.OKGREEN, 2)
+    printc("Xtream UI 22F - Oficial", col.OKGREEN, 2)
     print "%s │ A RTMT-IP Recuperou os arquivos oficiais %s" % (col.OKGREEN, col.ENDC)
     print "%s │ Serviços Telegram @rtmtip %s" % (col.OKGREEN, col.ENDC)
     print "%s │ Serviços Canais+Filmes+Series %s" % (col.OKGREEN, col.ENDC)
