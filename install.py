@@ -90,9 +90,9 @@ def install(rType="MAIN"):
 def update(rType="MAIN"):
     if rType == "UPDATE":
         printc("Enter the link of release_xyz.zip file:", col.WARNING)
-        rlink = raw_input('Example: https://www.dropbox.com/s/3le71465rvmp8ka/release_22f.zip?dl=1\n\nNow enter the link:\n\n')
+        rlink = raw_input('Example: https://www.dropbox.com/s/upaf6xk30sexy7x/update.zip?dl=1\n\nNow enter the link:\n\n')
     else:
-        rlink = "https://www.dropbox.com/s/3le71465rvmp8ka/release_22f.zip?dl=1"
+        rlink = "https://www.dropbox.com/s/upaf6xk30sexy7x/update.zip?dl=1"
         printc("Installing Admin Panel")
     hdr = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
